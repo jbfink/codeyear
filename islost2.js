@@ -5,11 +5,10 @@ var isLost = function (n) {
   for (i = 0; i < count; i++) {
     if ( n === lost[i]) {
       return true;
+      return false;
     }
-else  return false;
-  }
 }
-
+}
 if ( isLost(12) ) {
   console.log('12 is a lost number');
 }
