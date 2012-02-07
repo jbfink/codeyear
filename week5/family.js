@@ -15,5 +15,6 @@ family[3] = new Person("timmy", 6);
 // loop through our new array
 var i;
 for (i = 0; i < 4; i++) {
-family[i].name;
+//console.log(i);
+console.log(family[i].name);
 }
