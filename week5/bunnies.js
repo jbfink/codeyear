@@ -11,6 +11,6 @@ var rabbit1 = new Rabbit("fluffy");
 var rabbit2 = new Rabbit("happy");
 var rabbit3 = new Rabbit("sleepy");
 
-console.log(rabbit1.describeMyself());
-console.log(rabbit2.describeMyself());
-console.log(rabbit3.describeMyself());
+rabbit1.describeMyself();
+rabbit2.describeMyself();
+rabbit3.describeMyself();
