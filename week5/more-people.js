@@ -12,3 +12,4 @@ var contact = [];
 contact[0] = bob;
 contact[1] = mary;
 
+console.log(contact[1].phoneNumber);
