@@ -40,9 +40,9 @@ search("Jones");
 
 add = function(firstName, lastName, email, telephone) {
     var newFriend = {
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.email = email;
-    this.telephone = telephone;
+    firstName: this.firstName,
+    lastName: this.lastName,
+    email: this.email,
+    telephone: this.telephone
     }
 };
