@@ -46,6 +46,7 @@ add = function(firstName, lastName, email, telephone) {
     telephone: this.telephone
 };
 };
+var newFriend;
 contacts[contacts.length] = newFriend;
 
 var firstName = prompt("First name?");
