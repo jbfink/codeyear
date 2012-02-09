@@ -44,5 +44,13 @@ add = function(firstName, lastName, email, telephone) {
     lastName: this.lastName,
     email: this.email,
     telephone: this.telephone
-    }
 };
+};
+contacts[contacts.length] = newFriend;
+
+var firstName = prompt("First name?");
+var lastName = prompt("Last name?");
+var email = prompt("email?");
+var telephone = prompt("Telephone?");
+
+add(firstName,lastName,email,telephone);
