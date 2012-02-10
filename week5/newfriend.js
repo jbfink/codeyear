@@ -40,18 +40,20 @@ search("Jones");
 
 add = function(firstName, lastName, email, telephone) {
     var newFriend = {
-    firstName: this.firstName,
-    lastName: this.lastName,
-    email: this.email,
-    telephone: this.telephone
+    firstName: firstName,
+    lastName: lastName,
+    email: email,
+    telephone: telephone
 };
-};
-var newFriend;
 contacts[contacts.length] = newFriend;
 
-var firstName = prompt("First name?");
-var lastName = prompt("Last name?");
-var email = prompt("email?");
-var telephone = prompt("Telephone?");
+};
 
-add(firstName,lastName,email,telephone);
+//var firstName = prompt("First name?");
+//var lastName = prompt("Last name?");
+//var email = prompt("email?");
+//var telephone = prompt("Telephone?");
+
+add("John","Fink","x@x.com","555-555-5555");
+
+list();
