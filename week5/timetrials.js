@@ -5,7 +5,7 @@ var timothy = [12.2,11.8,12.5,10.9,11.1];
 
 // declare your function calculateTotal here
 var calculateTotal = function(raceTimes) {
-    var totalTime;
+    var totalTime = 0;
     for (i = 0; i < raceTimes.length; i++) {
         totalTime = totalTime + raceTimes[i];
     }
