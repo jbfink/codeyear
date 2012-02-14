@@ -17,5 +17,5 @@ function Person(first,last,age) {
 var john = new Person('John','Smith',30);
 console.log(john.returnBalance);
 var myBalanceMethod = john.askTeller();
-var myBalance = myBalanceMethod();
+var myBalance = myBalanceMethod;
 console.log(myBalance);
