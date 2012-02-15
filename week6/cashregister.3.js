@@ -1,8 +1,8 @@
 var cashRegister = {
     total:0,
 //insert the add method here    
-    add: function(itemCost) {
-    this.total += itemCost;
+    add: function(price) {
+    this.total += price;
     },
     
     scan: function(item) {
@@ -31,5 +31,10 @@ var cashRegister = {
 
 //Scan 2 eggs and 3 magazines
 
+cashRegister.scan("eggs");
+cashRegister.scan("eggs");
+cashRegister.scan("magazine");
+cashRegister.scan("magazine");
+cashRegister.scan("magazine");
 //Show the total bill
 console.log('Your bill is '+cashRegister.total);
