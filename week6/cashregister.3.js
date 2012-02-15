@@ -2,8 +2,8 @@ var cashRegister = {
     total:0,
 //insert the add method here    
     add: function(itemCost) {
-    this.total = this.total + itemCost
-    }
+    this.total += itemCost;
+    },
     
     scan: function(item) {
         switch (item) { 
