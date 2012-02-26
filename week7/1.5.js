@@ -4,11 +4,8 @@ var setName = function(yourName){
 
 // create a human object with the desired method
 var human = {
-  setHumanName: function(name) {
-   setName(name);      
-      
-  }
-};
+  setHumanName: setName
+  };
 
 // now call human.setHumanName
 
