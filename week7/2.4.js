@@ -5,7 +5,7 @@ function Company(name,yearFounded,profitLevel) {
    var bankBalance = 20;
    
    // add your method here
-   getBalance = function() {
+   this.getBalance = function() {
        return bankBalance - 2;
    };
 }
