@@ -5,8 +5,8 @@ function Candy(name) {
 
 // extend the prototype of Candy with a "printName" method
 
-Candy.prototype.printName = new function() {
-    console.log(name);
+Candy.prototype.printName = function() {
+    console.log(this.name);
 };
 
 // testing code for your method
