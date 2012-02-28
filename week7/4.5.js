@@ -1,18 +1,18 @@
 // Define substring here
 var substring = function(input, start, end) {
-    var subset = "";
+    subset = "";
     var i;
-    return subset;
+for (i = start; i<=end; i++) {
+    subset += substring[i];
+}
+    
+return subset;
 };
 var input = "lorem ipsum dolor";
 var start = 6;
 var end = 10;
-var value;
-for (i = start; i<=end; i++) {
-    value += substring[i];
-}
 
-console.log(value);
+console.log(substring(input,start,end));
 // Write test here:
 // Call substring, passing "lorem ipsum dolor" to `input`, `6` to 
 // `start`, and `10` to `end`.
