@@ -4,4 +4,4 @@ var getFirstName = function(fullName){
   var i = 0;
   
 };
-var length = length.fullname;
+var length = length.fullName;
