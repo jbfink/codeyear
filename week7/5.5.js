@@ -6,7 +6,7 @@ var getFirstName = function(fullName){
  var length = fullName.length;
 
  
- while (i < length && i !== " ") {
+ while (i < length && next !== " ") {
     console.log(fullName[i]);
     i++;
     next = fullName[i];
