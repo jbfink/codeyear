@@ -12,7 +12,7 @@ for (r = 0; r < rows; r++) {
  var cells = table[r];
  var rowText = "";
  for (c = 0; c < cells; c++) {
-     
+  rowText += table[r][c];   
  }
 
 }
