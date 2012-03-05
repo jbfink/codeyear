@@ -9,10 +9,14 @@ var rows = table.length;
 
 for (r = 0; r < rows; r++) {
  var c;
- var cells = table[r];
+ var cells = table[r].length;
  var rowText = "";
  for (c = 0; c < cells; c++) {
-  rowText += table[r][c];   
- }
-
-}
+ if ((c+1) < cells) {
+ rowText = rowText + table[r][c]+ " " ;
+ } else {
+ rowText = rowText + table[r][c];
+};
+};
+console.log(rowText);
+};
