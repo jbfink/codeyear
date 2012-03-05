@@ -8,4 +8,4 @@ var substring = function(all,start,end) {
   // substring(all,start+1,end);
   }
 };
-substring("lorem ipsum dolor",6,10);
+console.log(substring("lorem ipsum dolor",6,10));
