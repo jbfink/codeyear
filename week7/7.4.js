@@ -13,7 +13,7 @@ for (r = 0; r < rows; r++) {
  var rowText = "";
  for (c = 0; c < cells; c++) {
  if ((c+1) < cells) {
- rowText = rowText + table[r][c]+ " " ;
+ rowText = rowText + table[r][c]+ "  " ;
  } else {
  rowText = rowText + table[r][c];
 };
